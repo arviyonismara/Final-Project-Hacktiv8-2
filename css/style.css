@@ -1,0 +1,210 @@
+/* warna text dan elemen = #234CAD */
+/* warna backgroud = #F2F6FF */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
+/* Navbar */
+.navbar-brand{
+    
+}
+.navbar-nav{
+    color: #234CAD;
+}
+.nav-link{
+    color: #234CAD;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+}
+.navbar-button button{
+    width: 135px;
+    height: 50px;
+    border-radius: 25px;
+    color: #234CAD;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+}
+.button-login{
+    background-color: transparent;
+    border: 2px solid #234CAD;
+}
+.button-signup{
+    background-color: #F2F6FF;
+    border: none;
+    margin-left: 25px;
+}
+
+/* Banner */
+#banner{
+    width: 100%;
+    height: 611px;
+    position: relative;
+}
+.container-banner{
+    position: relative;
+    height: 575px;
+    width: 1240px;
+    margin: 50px auto;
+    background-color: #F2F6FF;
+    border-radius: 60px;
+}
+.hero-tagline h1{
+    position: absolute;
+    height: 168px;
+    width: 375px;
+    left: 100px;
+    top: 108px;
+    border-radius: nullpx;
+    font-family: Nunito;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #234CAD;
+}
+.hero-tagline p{
+    position: absolute;
+    height: 52px;
+    width: 304px;
+    left: 100px;
+    top: 301px;
+    border-radius: nullpx;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #234CAD;
+}
+
+.hero-tagline button{
+    position: absolute;
+    background-color: transparent;
+    color: #234CAD;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    height: 65px;
+    width: 200px;
+    left: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    border-radius: 32.5px;
+    border: 2px solid #234CAD;
+    margin-top: 403px;
+    left: 100px;
+    bottom: 107px;
+}
+
+.papper{
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    margin-left: 575px;
+    top: 36px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.papper > div{
+    /* position: absolute; */
+    height: 30px;
+    width: 24px;
+    margin: 23px 25px 22px 26px;
+    border-radius: 0px;
+}
+.upload{
+    position: absolute;
+    height: 100px;
+    width: 350px;
+    margin-left: 575px;
+    top: 136px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.upload .stroke{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 19px;
+}
+.bg-upload{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 50%;
+    background: #F2F6FF;
+}
+.bg-upload img{
+    margin: 14px;
+}
+.team{
+    position: absolute;
+    height: 160px;
+    width: 276px;
+    margin-left: 575px;
+    top: 261px;
+    border-radius: 25px;
+    background: #FFFFFF;
+}
+.john{
+    position: absolute;
+    height: 100px;
+    width: 350px;
+    margin-left: 575px;
+    top: 446px;
+    border-radius: 25px;
+    border-radius: 25px;
+    background: #FFFFFF;
+}
+.storage{
+    position: absolute;
+    height: 160px;
+    width: 130px;
+    margin-left: 975px;
+    top: 76px;
+    border-radius: 25px;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+.anna{
+    position: absolute;
+    height: 100px;
+    width: 350px;
+    margin-left: 876px;
+    top: 261px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.save{
+    position: absolute;
+    height: 100px;
+    width: 350px;
+    margin-left: 975px;
+    top: 386px;
+    border-radius: 25px;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+.chat{
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    margin-left: 950px;
+    top: 511px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
