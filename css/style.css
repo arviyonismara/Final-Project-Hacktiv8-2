@@ -158,8 +158,22 @@ body{
     border-radius: 25px;
     background: #FFFFFF;
 }
+.calendar{
+    /* position: absolute; */
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    background-color: #F2F6FF;
+    border-radius: 50%;
+    border: 2.5px solid #234CAD;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.calendar img{
+    margin: 17px;
+}
 .john{
-    position: absolute;
+    xposition: absolute;
     height: 100px;
     width: 350px;
     margin-left: 575px;
@@ -167,6 +181,28 @@ body{
     border-radius: 25px;
     border-radius: 25px;
     background: #FFFFFF;
+}
+.js{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+.js > div{
+    box-sizing: border-box;
+    float: right;
+    background-color: #234CAD;
+    color: #FFFFFF;
+    font-size: 6px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    border-radius: 50%;
 }
 .storage{
     position: absolute;
