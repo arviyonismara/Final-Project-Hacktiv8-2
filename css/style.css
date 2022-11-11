@@ -124,6 +124,7 @@ body{
 }
 .upload{
     position: absolute;
+    display: flex;
     height: 100px;
     width: 350px;
     margin-left: 575px;
@@ -132,13 +133,8 @@ body{
     background: #FFFFFF;
     border-radius: 20px;
 }
-.upload .stroke{
-    position: absolute;
-    margin-left: 50px;
-    margin-top: 19px;
-}
-.bg-upload{
-    position: absolute;
+.upload .circle{
+    /* position: absolute; */
     height: 50px;
     width: 50px;
     margin-top: 25px;
@@ -146,8 +142,27 @@ body{
     border-radius: 50%;
     background: #F2F6FF;
 }
+.upload .stroke{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: -6px;
+}
+
 .bg-upload img{
     margin: 14px;
+}
+.upload-text{
+    margin: 30px;
+    line-height: 10px;
+}
+h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: #234CAD;
+}
+.upload-text p{
+    font-size: 12px;
+    color: #234CAD;
 }
 .team{
     position: absolute;
@@ -158,22 +173,51 @@ body{
     border-radius: 25px;
     background: #FFFFFF;
 }
+.team .upper{
+    display: flex;
+}
+.upper .team-text{
+    line-height: 10px;
+    margin: 30px;
+}
+.team-text p{
+    font-size: 12px;
+    color: #234CAD;
+}
 .calendar{
     /* position: absolute; */
     box-sizing: border-box;
     width: 60px;
     height: 60px;
-    background-color: #F2F6FF;
+    background-color: #FFFFFF;
     border-radius: 50%;
-    border: 2.5px solid #234CAD;
+    border: 2.25px solid #234CAD;
     margin-top: 20px;
     margin-left: 20px;
 }
 .calendar img{
     margin: 17px;
 }
+.team .bottom{
+    display: flex;
+    margin-left: 28px;
+    margin-top: -15px;
+}
+.bottom > div{
+    width: 40px;
+    height: 40px;
+    background-color: #F2F6FF;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    margin-left: -8px;
+    font-weight: 700;
+    font-size: 10px;
+    color: #234CAD;
+}
 .john{
-    xposition: absolute;
+    position: absolute;
     height: 100px;
     width: 350px;
     margin-left: 575px;
@@ -193,17 +237,7 @@ body{
     text-align: center;
     line-height: 60px;
 }
-.js > div{
-    box-sizing: border-box;
-    float: right;
-    background-color: #234CAD;
-    color: #FFFFFF;
-    font-size: 6px;
-    width: 16px;
-    height: 16px;
-    text-align: center;
-    border-radius: 50%;
-}
+
 .storage{
     position: absolute;
     height: 160px;
@@ -243,4 +277,76 @@ body{
     border-radius: 20px;
     background: #FFFFFF;
     border-radius: 20px;
+}
+
+/* Newsletter */
+.newsletter-body {
+    background: #F2F6FF;
+    border-radius: 60px;
+    margin: 100px;
+}
+
+.newsletter-content {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.newsletter-item {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #234CAD;
+}
+
+.form-control-newsletter {
+    border-radius: 17.5px;
+    max-width: 500px;
+    max-height: 65px;
+    margin-left: auto;
+}
+
+.input-group-button {
+    align-content: center;
+}
+
+.btn-newsletter {
+    border-radius: 17.5px;
+    margin-right: auto;
+}
+
+/* Footer */
+.title-footer {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 49px;
+    color: #234CAD;
+}
+
+footer li {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #234CAD;
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.footer-middle {
+    padding-top: 150px;
+    padding-bottom: 75px;
+    color: white;
 }
