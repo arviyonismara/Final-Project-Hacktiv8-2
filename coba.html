@@ -6,33 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      .container {
-        height: 100px;
-        width: 350px;
-        background-color: aqua;
-        display: flex;
-        border-radius: 15px;
+      body {
+        margin: 0;
+        padding: 0;
       }
-      .circle {
-        height: 50px;
-        width: 50px;
+      .container {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
         border-radius: 50%;
-        background-color: aquamarine;
-        line-height: 50px;
+      }
+      .text {
         text-align: center;
-        margin: 25px;
+        line-height: 100px;
+      }
+      .notif {
+        position: absolute;
+        /* float: right; */
+        top: 0;
+        right: 0;
+        width: 20px;
+        font-size: 8px;
+        background-color: bisque;
+        text-align: center;
+        line-height: 100%;
+        border-radius: 50%;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="circle">
-        <div class="luar"></div>
-        <div class="bg">img</div>
-      </div>
       <div class="text">
-        <h4>Uploading Document</h4>
-        <p>091820918230</p>
+        <p>JS</p>
+      </div>
+      <div class="notif">
+        <p>3</p>
       </div>
     </div>
   </body>
