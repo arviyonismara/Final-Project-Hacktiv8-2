@@ -193,7 +193,7 @@ h4{
     border-radius: 25px;
     background: #FFFFFF;
 }
-.team .upper{
+.upper{
     display: flex;
 }
 .upper .team-text{
@@ -218,7 +218,7 @@ h4{
 .calendar img{
     margin: 17px;
 }
-.team .bottom{
+.bottom{
     display: flex;
     margin-left: 28px;
     margin-top: -15px;
@@ -399,12 +399,245 @@ h4{
     line-height: 75px;
 }
 
+/* about */
+.about{
+    width: 100%;
+    height: 611px;
+    position: relative;
+}
+.container-about{
+    position: absolute;
+    left: 100px;
+    width: 100%;
+}
+.about-left{
+    position: absolute;
+    width: 575px;
+    height: 575px;
+    left: 565px;
+    background: #F2F6FF;
+    border-radius: 60px;
+}
+.card-1{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 276px;
+    height: 160px;
+    margin-bottom: 25px;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+.card-2{
+    position: absolute;
+    width: 276px;
+    height: 160px;
+    left: 100px;
+    top: 285px;
+    margin-bottom: 25px;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+.card-3{
+    position: absolute;
+    width: 276px;
+    height: 160px;
+    left: 100px;
+    top: 470px;
+    bottom: -9.57%;
+    margin-bottom: 25px;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+.card-4{
+    position: absolute;
+    left: 401px;
+    top: 100px;
+    width: 276px;
+    height: 160px;
+    margin-bottom: 25px;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+.card-5{
+    position: absolute;
+    left: 401px;
+    top: 285px;
+    width: 276px;
+    height: 160px;
+    margin-bottom: 25px;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+.card-6{
+    position: absolute;
+    left: 401px;
+    top: 470px;
+    right: -9.81%;
+    bottom: -9.57%;
+    width: 276px;
+    height: 160px;
+    margin-bottom: 25px;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+/* pricing */
+.pricing{
+    position: relative;
+    width: 1440px;
+    height: 688px;
+    top: 150px;
+}
+
+.price-head h1{
+    position: absolute;
+    left: 422px;
+    bottom: 90.48%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #234CAD;
+}
+.price-head p{
+    position: absolute;
+    height: 52px;
+    width: 365px;
+    left: 538px;
+    right: 35.24%;
+    top: 81px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #234CAD;
+}
+.price-body{
+    position: absolute;
+    margin-top: 208px;
+}
+.price-body .card{
+    position: relative;
+    background: #F2F6FF;
+    border-radius: 60px;
+    width: 380px;
+    height: 380px;
+    margin-right: 25px;
+}
+.card-body-price .card-title{
+    position: absolute;
+    height: 40px;
+    left: 31.75%;
+    right: 31.39%;
+    top: calc(50% - 40px/2 - 120px);
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+
+    color: #234CAD;
+}
+.nett-price{
+    position: absolute;
+    height: 48px;
+    left: 31.75%;
+    right: 31.39%;
+    top: 125px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 48px;
+    /* identical to box height, or 86% */
+
+    text-align: center;
+
+    color: #234CAD;
+}
+.card-body-price .card-text{
+    position: absolute;
+    height: 32px;
+    left: 33.58%;
+    right: 32.48%;
+    top: calc(50% - 32px/2 + 14px);
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+
+    color: #234CAD;
+}
+.card-body-price button{
+    position: absolute;
+    height: 75px;
+    width: 274px;
+    top: 255px;
+    left: 53px;
+    background: #FFFFFF;
+    border-radius: 37.5px;
+    border-color: #FFFFFF;
+    border-style: none;
+}
+.btn-price{
+    position: absolute;
+    height: 40px;
+    left: 26.28%;
+    right: 25.91%;
+    top: calc(50% - 40px/2 + 0.5px);
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    /* identical to box height, or 160% */
+    text-align: center;
+    color: #234CAD;
+}
+.price-body .card-clicked{
+    position: relative;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 60px;
+    width: 380px;
+    height: 380px;
+    margin-right: 50px;
+    border: 3px solid #234CAD;
+}
+.card-clicked button{
+    position: absolute;
+    height: 75px;
+    width: 274px;
+    top: 255px;
+    left: 53px;
+    background: #FFFFFF;
+    border-radius: 37.5px;
+    border-style: none;
+    border: 3px solid #234CAD;
+}
+
 /* Newsletter */
 .newsletter-body {
     background: #F2F6FF;
     border-radius: 60px;
     margin: 100px;
     border: none;
+    top: 150px;
 }
 
 .newsletter-content {
